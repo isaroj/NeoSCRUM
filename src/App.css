@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin : 0;
+  border: 0;
+}
+
+body{
+  background-color: #242B2E;
+  color: #fff;
+}
+
+
+.profile{
+  margin-left : -20px;
+  margin-top: 10px;
+}
+
+.form{
+  border: 1px solid #000;
+  height: 70vh;
+  width: 80vh;
+  margin: 10px auto;
+  border-radius: 10px;
+  border-color: #5DA3FA;
+  background-image: linear-gradient(#00BC40, #4C3AE3);
+
+}
+span{
+  background-color: #000;
+  color: #fff;
+  padding: 2px 10px;
+  text-decoration: none;
+  
+}
+
+.empName{
+  margin-top: 10px;
+  border : 2px solid #000;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border-radius: 10px;
+  display: block;
+}
+
+#name{
+  margin-top: 50px;
+  margin-left: -160px;
+}
+#email{
+margin-top: 4px;
+margin-left: -250px;
+}
+#password{
+  margin-top: 0px;
+  margin-left: -220px;
+}
+.empMail{
+  border : 2px solid #000;
+  padding: 8px;
+  margin : 10px auto;
+  width: 300px;
+  border-radius: 10px;
+  display: block;
+}
+
+.sub{
+  display: block;
+  margin : 30px auto;
+  width: 300px;
+}
+
+#empPassword{
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  border : 2px solid #000;
+  padding: 8px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+ul{
+  list-style-type: none;
+  position: absolute;
+  right: 10px;
+  display: inline;
+  top: 0;
+}
+li{
+  display: inline;
+}
+img{
+  top: 10px;
+  left: 10px;
+  border-radius: 100px;
+  width: 4px;
+  display: inline;
+}
+.navIcon{
+  position : absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 100px;
+  width: 50px;
+  height: 8vh;
+  display: inline;
+}
+.name{
+  margin-left: 70px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #fff;
+}
+nav{
+  background-color: #758283;
+  height: 15vh;
+  position: absolute;
+  top:0;
+  width: 100%;
+}
+.cards{
+  margin-top: 100px;
+}
+.card{
+  border : 1px solid #fff;
+  box-shadow: 13px 10px 13px 1px #CAD5E2;
+  flex : 1;
+  margin: 15px;
+  border-radius: 40px;
+  background-color: #000;
+
+}
+.card:hover{
+  background-color: rgb(20, 20, 20);
+  cursor: pointer;
+  
+}
+
+.fd{
+  width: 30vh;
+  height : 30vh;
+  border-radius: 100px;
+}
+.err{
+  width: 50%;
+  height: 60vh;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+
+}
